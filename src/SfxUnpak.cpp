@@ -8,7 +8,7 @@ const std::filesystem::path pathAppend = L"unpacked";
 
 int main()
 {
-	printf("SfxUnpak v0.2.1\n");
+	printf("SfxUnpak v0.2.1 by Serge (aka Sergeanur)\n");
 	{
 		auto streamedPakFiles = OpenStreamedPakFiles(false);
 		auto Tracks = ReadTrackLookup();

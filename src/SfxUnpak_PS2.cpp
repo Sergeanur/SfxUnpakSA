@@ -43,7 +43,7 @@ int main()
 	bool dumpVAGS = false;
 	bool convertToWav = false;
 
-	printf("SfxUnpak_PS2 v0.2.1\n");
+	printf("SfxUnpak_PS2 v0.2.1 by Serge (aka Sergeanur)\n");
 
 	while (true)
 	{
