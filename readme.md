@@ -1,4 +1,4 @@
-# SfxUnpackSA
+# SfxUnpakSA
 
 [![Join Discord](https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat)](https://discord.gg/WgAg9ymHbj)
 
@@ -6,7 +6,7 @@
 
 Two tools to unpack SA audio data.
 
-## SfxUnpack
+## SfxUnpak
 
 A small utility to unpack audio data from SA PC version (possibly Xbox version too) with an ability to name banks and some files from given list.
 
@@ -26,7 +26,7 @@ v0.2
 v0.1
 * initial release
 
-## SfxUnpack_PS2
+## SfxUnpak_PS2
 
 Same as above but for PS2 version. Can extract original vag format and perform conversion into wav.
 
