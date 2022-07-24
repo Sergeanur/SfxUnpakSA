@@ -71,7 +71,7 @@ public:
 			// flags & 2 - in loop
 			// flags & 4 - loop start
 			uint8_t flags = *(inbuf++);
-			if (flags & 7) // failsafe
+			if ((flags & 7) == 7) // failsafe
 				break;
 
 			for (int i = 0; i < VAG_SAMPLES_IN_LINE; i += 2) {

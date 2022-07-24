@@ -8,7 +8,7 @@ Two tools to unpack SA audio data.
 
 ## SfxUnpak
 
-A small utility to unpack audio data from SA PC version (possibly Xbox version too) with an ability to name banks and some files from given list.
+A small utility to unpack audio data from SA PC version with an ability to name banks and some files from given list.
 
 ### Usage
 
@@ -36,6 +36,9 @@ Put into 'audio' directory. Launch 'SfxUnpak_PS2.exe'. Names are read from 'bank
 DO NOT USE AudioEvents.txt FROM PC!
 
 ### Changelog
+
+v0.2.2
+* fix wav conversion
 
 v0.2.1
 * small fixes
