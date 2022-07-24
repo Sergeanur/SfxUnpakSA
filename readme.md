@@ -4,7 +4,7 @@
 
 [![Support Author](https://img.shields.io/badge/support-author-blue)](https://bit.ly/3sX2oMk) [![Help Ukraine](https://img.shields.io/badge/help-ukraine-yellow)](https://bit.ly/3afhuGm)
 
-Two tools to unpack SA audio data.
+Three tools to unpack SA audio data.
 
 ## SfxUnpak
 
@@ -49,4 +49,17 @@ v0.2
 * Changed reading from 'tracklist.txt' to 'tracklist_ps2.txt' with some fixes to tracks order
 
 v0.1
+* initial release
+
+## SfxUnpak_Xbox
+
+Same as above but for Xbox version. Can extract original Xbox ADPCM format and perform conversion into PCM.
+
+### Usage
+
+Put into 'audio' directory. Launch 'SfxUnpak_Xbox.exe'. Names are read from 'banklist_xbox.txt', 'tracklist_xbox.txt' and '../data/AudioEvents.txt'. Output will be in 'unpacked' directory.
+
+### Changelog
+
+v0.2.3
 * initial release

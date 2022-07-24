@@ -65,6 +65,16 @@ struct FMTHeader
 	{ };
 };
 
+struct ExtraADPCM
+{
+	uint16_t Extra = 0;
+	uint16_t SamplesInBlock = 0;
+
+	ExtraADPCM() = default;
+	ExtraADPCM(uint16_t a, uint16_t b) : Extra(a), SamplesInBlock(b)
+	{ };
+};
+
 struct DATAHeader
 {
 	uint32_t	DataId = DATA_ID;

@@ -69,8 +69,12 @@ struct sTrackChannel
 struct sTrackHeader
 {
 	sTrackBeat beats[1000];
+#ifdef XBOX
+	sTrackChannel channels[2];
+#else
 	sTrackChannel channels[8];
 	uint16_t nChannels = 0;
+#endif
 };
 
 struct sTrack
